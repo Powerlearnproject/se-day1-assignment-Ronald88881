@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18398265&assignment_repo_type=AssignmentRepo)
 # SE_Day1
 Software Engineering Day1 Assignment
 
@@ -5,26 +6,159 @@ Software Engineering Day1 Assignment
 
 Explain what software engineering is and discuss its importance in the technology industry.
 
+Software engineering is not just a branch of computer science but a structured discipline that applies engineering principles, methods, and tools to design, develop, test, deploy, and maintain high-quality software. Unlike basic coding, it emphasizes systematic processes to ensure software is reliable, efficient, scalable, and secure. For example, developing an app like Uber involves not only writing code but also rigorous testing, user feedback integration, and continuous updates on all models of software engineering.
+
+Reliability- it ensures software performs as expected without bias, especially for critical applications like healthcare, and finance. Imagine a healthcare app like a hospital management system. Software engineering ensures it works flawlessly 24/7, preventing errors that could endanger lives. 
+
+Efficiency - it helps to optimize developer workflow while maintaining high-quality standards. Tools like version control (e.g., Git) and automated testing streamline workflows, allowing teams like those behind Google’s search engine to maintain quality while scaling rapidly.
+
+Scalability and flexibility - it ensures that the system can handle an increased load without affecting performance. Platforms like Facebook must handle billions of users. Software engineering principles enable systems to grow without crashing, using techniques like cloud computing.
+
+Security - implement protection practices like authentication, authorization, and encryption to secure users' information. Banking apps use encryption and authentication (engineered into their design) to protect our data from breaches.
+
+Thus, software engineering has become the backbone of modern technology since it powers everything from our smartphone`s OS to critical infrastructures.
+
+
 
 Identify and describe at least three key milestones in the evolution of software engineering.
+
+Mastering complexity: In the 1960s, software projects like NASA’s Apollo missions were plagued by delays, bugs, and budget overruns among others, a mess called the “Software Crisis.” This chaos led to the 1968 NATO conference, where the term “software engineering” was coined. Visionaries like Edsger Dijkstra advocated for structured programming (using loops and functions instead of chaotic “GOTO” statements), while Fred Brooks exposed team management pitfalls in his book “The Mythical Man-Month”. This era mastered complexity. For instance, the Waterfall methodology (developed in the 1970s) broke projects into phases (design, code, test), making large systems like IBM’s OS/360 possible. Structured programming also inspired languages like C, which powered UNIX and later, the entire internet. Without these ideas, building reliable operating systems (e.g., Windows) or enterprise software would remain a pipe dream.
+
+Mastering process: Around the 1990s, inflexible processes like Waterfall struggled to keep up with fast-changing user needs. In 2001, 17 developers (including thought leaders like Kent Beck) drafted the Agile Manifesto, prioritizing flexibility, collaboration, and iterative development. Agile mastered the process. For example, Spotify uses Agile “sprints” to update its app every two weeks, while Netflix rapidly experiments with new features. This contrasts with old models where software took years to ship (and often flopped, like Microsoft’s delayed Windows Vista). Agile reshaped the tech industry, enabling startups to disrupt giants by releasing minimum viable products (MVPs) quickly. Tools like GitHub and DevOps evolved from Agile principles, making collaboration seamless.
+
+Mastering machine: Before the 1950s, programmers wrote in machine code (raw binary instructions), which was error-prone and time-consuming. Then came Fortran (1957) and COBOL (1959), pioneered by figures like Grace Hopper. These languages let developers write code using human-readable syntax (e.g., PRINT "HELLO WORLD" instead of 01001000 01000101). This shift mastered the machine. By abstracting away hardware complexity, programmers could focus on solving problems logically. For example, Fortran enabled scientists to simulate nuclear reactions without wrestling with machine code. COBOL became the backbone of banking systems, showing how software could scale for real-world use. This era laid the groundwork for modern languages like Python and Java. Without it, software development would still be a function skill for engineers, not a global industry.
+
+These milestones aren’t just history they’re why our phone’s apps update weekly, why online banking works reliably, and why self-driving cars aren’t science fiction. Each era solved a core challenge like languages bridged human logic and machine execution, Structured methods tamed chaos in large systems, Agile put users and adaptability at the center.
+
 
 
 List and briefly explain the phases of the Software Development Life Cycle.
 
+Gathering & Analysis: Here you talk to users, stakeholders, and teams to define exactly what the software needs to do. E.g.: If building a food-delivery app, you’d ask: “Do users need real-time GPS tracking? Payment integration?” Note, skipping this is like building a house without asking how many bedrooms are needed. Missteps here lead to wasted time/money (e.g., healthcare software missing critical compliance features). Build up a Software Requirements Specification (SRS) document or “blueprint” everyone agrees on.
+
+Design: Here you build the framework. Architects create two types of designs, high-level/big-picture architecture (e.g., “Will the app use cloud servers or on-premise?”), and detailed architecture (UI mockups, database schemas, and API structures) e.g., designing Instagram’s swipeable Stories feature. Note that, a bad design leads to a shaky foundation. Think of Twitter’s “Fail Whale” era poor scalability led to crashes during traffic spikes. Tools mostly used here are Figma (UI/UX) and UML diagrams (system flow) to keep teams aligned. 
+
+Implementation (Coding): Here you`re "Converting Design to Code." Developers write code using languages like Python, Java, or JavaScript, following the design specs. E.g.: Turning a weather app’s design into functional code that fetches real-time data from APIs. Note that, clean, modular code (think Lego blocks) makes future updates easier. Messy code? Imagine trying to fix a tangled ball of yarn. Collaboration is key here and you can use tools like GitHub to help teams work together without overwriting each other’s work. 
+
+Testing: Here you are "Bug Hunting." Testers hunt for bugs through; unit testing (checking individual components e.g., “Does the ‘Add to Cart’ button work?”); integration testing (ensuring modules work together e.g., “Does payment processing sync with the order database?”); User Acceptance Testing (UAT) (real users try the software e.g., beta testing a video game). This matters a lot picking an example in 2020 PlayStation 5 pre-order chaos. Poor testing led to crashed websites and angry customers. Tools like Selenium help speed up repetitive tests, freeing humans for creative problem-solving.
+
+Deployment: Here you roll out the software to users. This can be; Big-Bang, launching everything at once (e.g., a new mobile game release), or; a Phased, gradual rollout (e.g., Netflix testing a new feature in Canada first). Note that, a smooth deployment avoids disasters. Tools like Docker and Kubernetes automate deployment and reduce human error.
+
+Maintenance: Here we fix bugs, add features, and keep the software compatible with new tech. E.g.: iOS apps need updates every year for new iPhone models. There are different types of maintenance which include, corrective (patching security flaws e.g., Zoom’s 2020 encryption upgrades), adaptive (upgrading systems to work with Windows 11), and perfective (adding dark mode to Instagram based on user requests). Note that, without maintenance, software becomes obsolete—like old Flash games that no longer run on modern browsers. 
+
+These phases will avoid budget overruns (clear requirements prevent scope creep e.g., “Wait, the client now wants AI chatbots too?!”), save time (testing catches bugs early and fixing a typo in code is easier than recalling 10,000 defective smartwatches), future-proofing (maintenance ensures software evolves, like how Tesla updates car software remotely to add new features).
+
+Real-world example: Imagine building Spotify: Requirements (Users want offline playlists), Design (architects decide how to store songs locally on phones), Code (developers write the feature), test (check if offline mode works on Android and iOS), Deploy (roll it out to 10% of users first to avoid crashes), Maintain (fix bugs e.g., “Offline playlists disappearing”) and add improvements (e.g., higher-quality audio). By following the SDLC, you’re not just writing code, you’re engineering a living, breathing product that grows with its users.
+
+
 
 Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.
+
+The Waterfall Methodology is also known as the "Blueprint-First" Approach. It follows a linear approach/a step-by-step process where each phase from requirements - design - coding - testing - deployment is completed before moving to the next. It imitates assembling IKEA furniture where you need to follow the instructions in order, and you can’t go back once you’ve glued the pieces together. Key characters include Predictability (clear timelines and budgets upfront. e.g. NASA’s Mars Rover software requirements can’t change mid-mission), Documentation-heavy (every detail is mapped out early. e.g. government systems like tax software, where audits and compliance are critical), Testing at the end (bugs are discovered late, like finding a typo in a printed book), Risk (the 1999 Mars Climate Orbiter crashed due to a unit conversion error caught too late). This is mostly applicable when; projects are fixed and have unchanging requirements. e.g., building an elevator control system; project teams need strict governance, e.g., industries like healthcare or aviation where mistakes are life-threatening; clients want full cost/time estimates upfront
+
+Agile Methodology is also known as the "Build-As-You-Go" Approach. It involves iterative cycles (sprints) of 2–4 weeks, in which teams design, code, test, and gather feedback in loops. E.g. Imagine remodeling a kitchen, you start with cabinets, get feedback, then add countertops, adjust based on what works, and keep improving. It is characterized by; flexibility (embrace changing requirements e.g.  Instagram started as a check-in app (Burbn) but pivoted to photos after user feedback); continuous testing (bugs are squashed early, like editing a Google Doc in real-time); collaboration (daily standups and close client involvement, eg.  Spotify’s squad model, where cross-functional teams own features end-to-end). It is advised to be used when, projects have evolving needs e.g., a startup’s MVP where user preferences are unknown), in fast-paced industries like tech, gaming, or e-commerce e.g., adding a "Buy Now" button based on holiday shopping trends), project teams thrive on autonomy and creativity e.g., software startups like Slack or Airbnb).
+
+Head-to-head contrast between the two aspects.
+Flexibility: Waterfall is rigid and changes are costly and post-phase while Agile is fluid and always welcomes changes even when it is late in the game. 
+Feedback: Waterfalls allows clients to see the final product at the end of all the phases while Agile allows clients to review every 2-4 weeks. 
+Risk: Waterfall has a higher risk since there might be a possibility of finding bugs late while Agile allows catching issues earlier. 
+Team: Waterfall has hierarchical structures which is time-consuming while Agile allows specific skills collaboration.
+Outcome: Waterfall`s outcome is predictable while Agile is flexible. 
+
+Real-World Scenarios
+Waterfall used in building a banking system where its requirements (e.g., FDIC compliance) can’t change once coding starts; testing is done at the end to ensure all regulations are met before launch and Agile is used in developing a Fitness App which starts with basic step-tracking, then add calorie counters based on user requests and release updates in every sprint to stay ahead of competitors like MyFitnessPal.
+
 
 
 Describe the roles and responsibilities of a Software Developer, a Quality Assurance Engineer, and a Project Manager in a software engineering team.
 
+Software Developer 
+- developing applications, programs, and systems using programming languages and frameworks.
+- maintaining and updating software to keep it functional. 
+- collaborating with other team members to ensure best practices when developing software.
+- Report to the project manager about the progress of software development.
+
+Quality Assurance Engineer 
+- collaborate with stakeholders to understand and clarify software requirements.
+- create development standards and procedures for the programmers to follow
+- confirm that the software meets the requirements before deployment. 
+- analyze the product to identify bugs and suggest changes to make them more efficient. 
+- develop and execute automation scripts using open-source tools.
+
+Project Manager 
+- assembles and leads the software development team.
+- discuss the project and its requirements with the client and software developers.
+- create a blueprint for the project.
+- tracking and communicating information regarding the project milestone.
+- deliver the complete software to the client and regularly check its performance.
+
 
 Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.
+
+An integrated development environment (IDE) is a software platform that facilitates the creation of other software applications by providing a space to write, compile, and debug code, sometimes with value-adding tools that reduce development efforts. eg Visual Studio Code (VSCode)
+
+importance:
+
+Programming languages have rules for how statements must be structured. Because an IDE knows these rules, it contains many intelligent features for automatically writing or editing the source code.
+
+An IDE can format the written text by automatically making some words bold or italic, or by using different font colors. These visual cues make the source code more readable and give instant feedback about accidental syntax errors.
+
+An IDE can make suggestions to complete a code statement when the developer begins typing.
+IDEs increase programmer productivity by performing repeatable development tasks that are typically part of every code change. The following are some examples of regular coding tasks that an IDE carries out.
+
+An IDE compiles or converts the code into a simplified language that the operating system can understand. - Some programming languages implement just-in-time compiling, in which the IDE converts human-readable code into machine code from within the application.
+
+The IDE allows developers to automate unit tests locally before the software is integrated with other developers' code and more complex integration tests are run.
+
+Debugging IDE enables a step through the code, line by line, as it runs and inspect code behavior. IDEs also integrate several debugging tools that highlight bugs caused by human error in real time, even as the developer is typing.
+
+Version Control Systems (VCS) - are software tools that help software teams manage changes to source code over time. eg Git
+
+importance:
+
+Collaboration: Enables multiple developers to work on the same codebase without conflicts.
+
+Change Tracking: Records detailed history of changes, allowing easy analysis of each modification. 
+
+Branching and Merging: Supports creating branches for new features and merging them back into the main code.
+
+Error Recovery: Allows reverting to previous versions if new changes introduce errors
 
 
 What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.
 
+-Rapid technological advancement places considerable pressure on software engineers to stay current.
+Solution: adopting continuous learning practices and using agile methodologies to adapt to emerging trends, keeping their skills sharp in an ever-evolving industry. -
+
+Time Constraints - Software engineering is a demanding and time-intensive field, often requiring engineers to work under high pressure to meet tight deadlines.
+Solution: adopt agile methodologies, such as Scrum, to streamline workflows by dividing large projects into manageable sprints 
+
+-Limited Infrastructure - limited high-performance software engineering tools and computing platforms and inefficient data storage architectures. 
+Solution: Software engineers must rely heavily on a robust infrastructure to perform their jobs effectively.
+
+-Changing Software Requirements - Software requirements are often dynamic and subject to frequent changes, making it challenging for engineers to design and develop solutions that meet users' needs while accounting for future updates and bug fixes. 
+Solution: engineers can adopt approaches like agile development, which emphasizes iterative progress and adaptability, and modular design, which enables flexibility by breaking systems into manageable, independent components.
+
+-Software Security - Programming secure software is a complex and challenging task. 
+Solution: research ways to defend against hacking, malware, phishing, insider and third-party threats
+
+-Software Accessibility and Usability - Overly complex software can frustrate or confuse users. 
+Solution: Use scalable architecture, Emphasize reliability.
+
 
 Explain the different types of testing (unit, integration, system, and acceptance) and their importance in software quality assurance.
+
+Unit tests - are close to the source of an application, They consist in testing individual methods and functions of the classes, components, or modules used by your software. 
+- it ensures that each unit performs its intended function correctly, isolated from other components.
+
+Integration tests - verify that different modules or services used by your application work well together.
+- help to ensure data flows smoothly between modules and interfaces work as expected.
+
+System testing -Focus on the entire software system as a whole, including all functionalities and interactions.
+-It help to verify that the system meets all functional and non-functional requirements, including performance, usability, and security .
+
+Acceptance tests - are formal tests that verify if a system satisfies business requirements. They require the entire application to be running while testing and focus on replicating user behaviors. 
+-Whether the software meets the needs of the end-user and is ready for deployment.
 
 
 #Part 2: Introduction to AI and Prompt Engineering
@@ -32,5 +166,31 @@ Explain the different types of testing (unit, integration, system, and acceptanc
 
 Define prompt engineering and discuss its importance in interacting with AI models.
 
+Prompt engineering is the process where you guide generative AI solutions to generate desired outputs.
+
+Importance:
+
+Improved user experience - Prompt engineering makes it easy for users to obtain relevant results in the first prompt. It helps mitigate bias that may be present from existing human bias in the large language models’ training data.
+
+Increased flexibility - A prompt engineer can create prompts with domain-neutral instructions highlighting logical links and broad patterns.
+
+Developer control - Prompt engineering gives developers more control over users' interactions with the AI. Effective prompts provide intent and establish context to the large language models. Provide an example of a vague prompt and then improve it by making it clear, specific, and concise.
+
 
 Provide an example of a vague prompt and then improve it by making it clear, specific, and concise. Explain why the improved prompt is more effective.
+
+Vague Prompt:
+
+"Write a blog post about productivity."
+Improved Prompt:
+
+"Write a 1,200-word blog post titled ‘5 Science-Backed Morning Routines for Remote Workers,’ targeting professionals aged 25–40. Include tips on time-blocking, digital detoxing before bed, and incorporating 10-minute workouts. Use a friendly, motivational tone and end with a call to action for readers to share their routines."
+
+Clarity specifies the exact goal (a blog post for remote workers) and audience (professionals aged 25–40).
+
+Content: "Science-backed morning routines," "time-blocking," "digital detoxing," and "10-minute workouts" provide actionable focus.
+
+Tone & Structure: "Friendly, motivational tone" and "call to action" guide the writer’s voice and purpose.
+
+Conciseness: All critical details are included in two sentences, leaving no room for guesswork but allowing creative flexibility within the framework.
+
